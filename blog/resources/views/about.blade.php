@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Welcome Everyone
+                   this is about page
                 </div>
 
                 <div class="links">
