@@ -9,8 +9,11 @@ class PagesController extends Controller{
 		}
 
 		public function getAbout(){
-			return view('Pages.about');
-
+				$a= 'Abu';
+				$b= 'AShraf';
+				$full = $a." ".$b;
+				$mail = 'abuashraf501@gmail.com';
+			return view('Pages.about')->with("fullname",$full)->with("email",$mail);
 		}
 
 		public function getContact(){
